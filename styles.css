@@ -1,0 +1,24 @@
+/* Defining custom properties */
+:root {
+    /* Text Primary colors */
+    --tp-very-dark-blue: hsl(238, 29%, 16%);
+    --tp-soft-red: hsl(14, 88%, 65%);
+    /* Gradient colors */
+    --g-soft-violet: hsl(273, 75%, 66%);
+    --g-soft-blue: hsl(240, 73%, 65%);
+    /* Text Neutral colors */
+    --tn-very-dark-gblue: hsl(237, 12%, 33%);
+    --tn-dark-gblue: hsl(240, 6%, 50%);
+    /* Dividers Color */
+    --d-light-gblue: hsl(240, 5%, 91%);
+}
+
+html {
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
