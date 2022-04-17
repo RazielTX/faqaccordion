@@ -14,51 +14,66 @@
 </head>
 <body>
 
-  <main class="flex-col">
+  <main class="container flex-jc-ai-center">
 
-    <div class="img-container">
       <!-- MOBILE -->
       <div class="img-mobile">
-        <img src="images/bg-pattern-mobile.svg" alt="Illustrastion's Background">
-        <img src="images/illustration-woman-online-mobile.svg" alt="Women using a big screen Illustration">
+        <img class="img-mobile-bg" src="images/bg-pattern-mobile.svg" alt="Illustrastion's Background">
+        <img class="img-mobile-main" src="images/illustration-woman-online-mobile.svg" alt="Women using a big screen Illustration">
       </div>
       <!-- DESKTOP -->
       <div class="img-desktop">
-        <img src="images/bg-pattern-desktop.svg" alt="Illustrastion's Background">
-        <img src="images/illustration-woman-online-desktop.svg" alt="Women using a big screen Illustration">
-        <img src="images/illustration-box-desktop.svg" alt="Box's Illustrastion">
+        <div class="bg-container">
+          <img class="img-desktop-bg" src="images/bg-pattern-desktop.svg" alt="Illustrastion's Background">
+          <img class="img-desktop-main" src="images/illustration-woman-online-desktop.svg" alt="Women using a big screen Illustration">
+        </div>
+        <img class="img-desktop-box" src="images/illustration-box-desktop.svg" alt="Box's Illustrastion">
       </div>
-    </div>
 
     <!-- FAQ Accordion -->
-    <div class="flex-col">
+    <div class="flex-col faq-container">
       
 
       <h1 class="faq-title">FAQ</h1>
-
+      
       <details class="faq-item">
-        <summary class="faq-q">How many team members can I invite?</summary>
+        <summary class="faq-sum flex-ai-center-jc-sb">
+          <h2 class="faq-q">How many team members can I invite?</h2>
+          <img class="faq-arrow" src="images/icon-arrow-down.svg" alt="Display arrow">
+        </summary>
         <p class="faq-a">You can invite up to 2 additional users on the Free plan. There is no limit on 
           team members for the Premium plan.</p>
       </details>
 
       <details class="faq-item">
-        <summary class="faq-q">What is the maximum file upload size?</summary>
+        <summary class="faq-sum flex-ai-center-jc-sb">
+          <h2 class="faq-q">What is the maximum file upload size?</h2>
+          <img class="faq-arrow" src="images/icon-arrow-down.svg" alt="Display arrow">
+        </summary>
         <p class="faq-a">No more than 2GB. All files in your account must fit your allotted storage space.</p>
       </details>
 
       <details class="faq-item">
-        <summary class="faq-q">How do I reset my password?</summary>
+        <summary class="faq-sum flex-ai-center-jc-sb">
+          <h2 class="faq-q">How do I reset my password?</h2>
+          <img class="faq-arrow" src="images/icon-arrow-down.svg" alt="Display arrow">
+        </summary>
         <p class="faq-a">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
       </details>
 
       <details class="faq-item">
-        <summary class="faq-q">Can I cancel my subscription?</summary>
+        <summary class="faq-sum flex-ai-center-jc-sb">
+          <h2 class="faq-q">Can I cancel my subscription?</h2>
+          <img class="faq-arrow" src="images/icon-arrow-down.svg" alt="Display arrow">
+        </summary>
         <p class="faq-a">Yes! Send us a message and we’ll process your request no questions asked.</p>
       </details>
 
       <details class="faq-item">
-        <summary class="faq-q">Do you provide additional support?</summary>
+        <summary class="faq-sum flex-ai-center-jc-sb">
+          <h2 class="faq-q">Do you provide additional support?</h2>
+          <img class="faq-arrow" src="images/icon-arrow-down.svg" alt="Display arrow">
+        </summary>
         <p class="faq-a">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
       </details>
 
@@ -68,7 +83,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a target="_blank" href="https://github.com/RazielTX">RazielTX</a>.
   </div>
 </body>
 </html>
